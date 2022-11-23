@@ -1,0 +1,188 @@
+/* /Header */
+
+#header {
+    background-image: linear-gradient(to right, rgb(10, 79, 139) , rgb(55, 128, 212));
+}
+.logo-aventure a {
+    font-weight: bold !important;
+}
+#header img {
+    width: 80px;
+}
+#header a { 
+    color: white; 
+}
+#header a:hover {
+    color: rgb(209, 213, 216);
+}
+
+/* /Header */
+
+/* main */
+
+.btn-aventure {
+    border: 2px solid rgb(253, 253, 253);
+    color: white;
+}
+.btn-btn-aventure:hover {
+    background-color: rgba(10, 79, 139, 0.829);
+    border: 2px solid rgb(10, 79, 139);
+    color: rgb(210, 208, 203);
+}
+#main .carousel-inner img {
+    width: 100%;
+    max-height: 90vh;
+    object-fit: cover; 
+    filter: grayscale(70%);
+}
+#carousel {
+    position: relative;
+}
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.475);
+    color: white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+.container p {
+    font-size: 1.3rem;
+}
+
+/* /main */
+
+/* collection of images */
+
+#cards-container {
+    width: 95%;
+    color: azure;
+}
+#cards-carusel img {
+    width: 100%;
+    height: 340px;
+}
+.card-body {
+    background-color: #05293db6;
+}
+.card-body:hover {
+    background-color: #0724339d;
+}
+#cards-de-coleccion {
+    display: flex;
+    height: auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+#cards-de-coleccion .card1 {
+    position: relative;
+    scroll-snap-align: center;
+    min-width: 300px;
+    max-width: 320px;
+    height: auto;
+    margin: 10px 10px;
+}
+
+/* /collection of images */
+
+/*  Explore food */
+
+#place-food {
+    background-color: rgba(23, 25, 29, 0.9);
+    color: white;
+}
+#place-food img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* / Explore food */
+
+/*--Plan cards---*/
+
+#plans {
+    background-image: linear-gradient(to right, rgb(10, 79, 139) , rgb(55, 128, 212));
+}
+.plans-container--slider {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.plans-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 80%;
+    min-width: 300px;
+    max-width: 320px;
+    height: 340px;
+    margin: 50px 10px;
+    padding: 0 15px;
+    background-color: #f4f4f4;
+    color: dark;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(47, 40, 24, 0.857);
+}
+
+.plan-card--title {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.plan-card--price {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.plan-card--price span {
+    position: absolute;
+    margin: 12px 0 0 -12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.plan-card--saving {
+    font-size: 1.2rem;
+}
+
+.plan-card--ca {
+    width: 10.5rem;
+    height: 2.4rem;
+    font-size: 1.2rem;
+    border: 1.8px solid rgb(10, 79, 139);
+    color: rgb(10, 79, 139);
+    font-size: 1rem;
+}
+.plan-card--ca:hover {
+    background-color: rgb(55, 128, 212);
+    border: 1.8px solid rgb(10, 79, 139);
+    color: azure;
+}
+
+/*---/Plan cards---*/
+
+/* Footer */
+
+#footer {
+    background-color: dark;
+    color: azure;
+}
+#footer a {
+    color: whitesmoke;
+}
+#footer a {
+    text-decoration: none;
+    line-height: 1.5rem;
+}
+
+/* /Footer */
